@@ -471,7 +471,7 @@
     <string name="ftp_status_secure_connection">Secure Connection</string>
     <string name="ftp_status_title">Status</string>
     <string name="ftp_port">Port</string>
-    <string name="ftp_login">Login</string>
+    <string name="ftp_login">FTP Login</string>
     <string name="field_empty">Field can\'t be empty</string>
     <string name="ftp_timeout">Idle timeout</string>
     <string name="ftp_seconds">Seconds</string>
