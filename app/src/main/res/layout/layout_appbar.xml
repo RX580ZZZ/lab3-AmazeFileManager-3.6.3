@@ -62,37 +62,39 @@
             android:orientation="vertical">
 
             <HorizontalScrollView
-                android:scrollbars="none"
                 android:id="@+id/scroll1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:clickable="false"
+                android:focusable="true"
                 android:paddingLeft="72dp"
                 android:paddingTop="5dp"
-                android:focusable="true">
+                android:scrollbars="none">
 
                 <LinearLayout
-                    android:clickable="false"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
+                    android:layout_height="wrap_content"
+                    android:clickable="false">
 
                     <TextView
-                        android:clickable="false"
-                        android:layout_width="wrap_content"
+                        android:id="@+id/fullpath"
                         style="@android:style/TextAppearance.Medium"
-                        android:textColor="@android:color/white"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:id="@+id/fullpath" />
+                        android:clickable="false"
+                        android:textColor="@android:color/white" />
+
                     <TextView
-                        android:clickable="false"
-                        android:layout_width="wrap_content"
-                        style="@android:style/TextAppearance.Medium"
-                        android:textColor="@android:color/white"
-                        android:layout_height="wrap_content"
                         android:id="@+id/fullpath_anim"
-                        android:visibility="gone"/>
+                        style="@android:style/TextAppearance.Medium"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:clickable="false"
+                        android:textColor="@android:color/white"
+                        android:visibility="gone" />
                 </LinearLayout>
             </HorizontalScrollView>
+
             <TextView
                 android:clickable="false"
                 android:layout_width="wrap_content"
