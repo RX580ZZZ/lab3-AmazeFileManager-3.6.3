@@ -33,6 +33,7 @@ import com.google.android.material.appbar.CollapsingToolbarLayout;
 import com.mikepenz.aboutlibraries.Libs;
 import com.mikepenz.aboutlibraries.LibsBuilder;
 
+import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.Build;
@@ -253,6 +254,9 @@ public class AboutActivity extends BasicActivity implements View.OnClickListener
       case R.id.relative_layout_donate:
         billing = new Billing(this);
         break;
+      case R.id.button6:
+        Intent intent = new Intent(this, com.amaze.filemanager.TestActivity.class);
+        startActivity(intent);
     }
   }
 

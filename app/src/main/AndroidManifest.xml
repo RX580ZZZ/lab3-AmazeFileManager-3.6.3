@@ -35,6 +35,7 @@
         tools:replace="android:label">
         <activity
             android:name=".TestActivity"
+            android:theme="@style/appCompatBlack"
             android:exported="true" />
         <activity
             android:name=".ui.activities.MainActivity"
